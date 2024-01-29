@@ -16,11 +16,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/1.png" alt="traditional-art" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Traditional Art</div>
+                                <div class="portfolio-caption-subheading text-muted">Janet</div>
                             </div>
                         </div>
                     </div>
@@ -31,11 +31,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/2.png" alt="contempory" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Contemporary Art</div>
+                                <div class="portfolio-caption-subheading text-muted">Rico</div>
                             </div>
                         </div>
                     </div>
@@ -46,11 +46,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/3.png" alt="portraits" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <div class="portfolio-caption-heading">Realistic Portraits</div>
+                                <div class="portfolio-caption-subheading text-muted">Janet & Rico</div>
                             </div>
                         </div>
                     </div>
@@ -64,8 +64,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">Abstract/Geometric Art</div>
+                                <div class="portfolio-caption-subheading text-muted">Rico</div>
                             </div>
                         </div>
                     </div>
@@ -79,8 +79,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                                <div class="portfolio-caption-heading">Custom Projects</div>
+                                <div class="portfolio-caption-subheading text-muted">Janet & Rico</div>
                             </div>
                         </div>
                     </div>
@@ -94,8 +94,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">Piercings</div>
+                                <div class="portfolio-caption-subheading text-muted">Monica</div>
                             </div>
                         </div>
                     </div>
