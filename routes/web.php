@@ -14,7 +14,12 @@ use App\Http\Controllers\StudioController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/home', [StudioController::class, 'index']);
+Route::get('/services', [StudioController::class, 'services']);
+Route::get('/portfolio', [StudioController::class, 'portfolio']);
+Route::get('/team', [StudioController::class, 'team']);
+Route::get('/contact', [StudioController::class, 'contact']);
+Route::post('/contact', [StudioController::class, 'contactForm']);
