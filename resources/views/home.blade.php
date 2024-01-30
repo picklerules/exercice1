@@ -74,15 +74,39 @@
                 </div>
 
 
-                @isset($data)
-                <div class="row bg-secondary w-50 text-white rounded mb-2 fw-bold font-monospace">
-                    <h4 class="font-monospace">Your contact infos</h4>
-                    <p>Name: {{ $data->name }} </p>
-                    <p>Email: {{ $data->email }} </p>
-                    <p>Phone: {{ $data->phone }} </p>
-                    <p>Message: {{ $data->message }} </p>
+        <!-- Contact information modal popup-->
+        <div class="portfolio-modal modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Contact Information</h2>
+                                    <!-- Contact info details -->
+                                    @isset($data)
+                                    <div class="fw-bold font-monospace">
+                                        <p>Name: {{ $data->name }} </p>
+                                        <p>Email: {{ $data->email }} </p>
+                                        <p>Phone: {{ $data->phone }} </p>
+                                        <p>Message: {{ $data->message }} </p>
+                                    </div>
+                                    @endisset
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                @endisset
+            </div>
+        </div>
 
                 <form id="contactForm" method="post" action="/contact">
                 @csrf 
@@ -146,6 +170,18 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="{{ asset('js/scripts.js') }}"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                // Reste du code ...
+
+                // Vérifiez si les données de contact existent
+                @isset($data)
+                    // Déclenchez le modal après le chargement de la page
+                    var myModal = new bootstrap.Modal(document.getElementById('contactModal'), {});
+                    myModal.show();
+                @endisset
+            });
+        </script>
     </body>
 </html>
 @endsection
