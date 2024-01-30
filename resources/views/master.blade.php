@@ -73,7 +73,12 @@
                 </div>
             </div>
         </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ asset('js/scripts.js') }}"></script>
+        @yield('js')
 
+        <!--Conditon pour faire un scroll vers la section contact dans la page home-->
         @if (isset($scrollToContact) && $scrollToContact)
             <script>
             window.onload = function() {

@@ -70,15 +70,18 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">We will get back to you as soon as possible.</h3>
                 </div>
 
 
                 @isset($data)
-                            <p class="text-white""><strong>Name: {{ $data->name }} </strong></p>
-                            <p class="text-white"><strong>Email: {{ $data->email }} </strong></p>
-                            <p class="text-white"><strong>Phone: {{ $data->phone }} </strong></p>
-                            <p class="text-white"><strong>Message: {{ $data->message }} </strong></p>
+                <div class="row bg-secondary w-50 text-white rounded mb-2 fw-bold font-monospace">
+                    <h4 class="font-monospace">Your contact infos</h4>
+                    <p>Name: {{ $data->name }} </p>
+                    <p>Email: {{ $data->email }} </p>
+                    <p>Phone: {{ $data->phone }} </p>
+                    <p>Message: {{ $data->message }} </p>
+                </div>
                 @endisset
 
                 <form id="contactForm" method="post" action="/contact">
