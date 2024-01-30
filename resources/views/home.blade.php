@@ -108,7 +108,7 @@
             </div>
         </div>
 
-                <form id="contactForm" method="post" action="/contact">
+                <form id="contactForm" method="post" action="{{ url('/home') }}">
                 @csrf 
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -149,11 +149,6 @@
                             <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
                 </form>
