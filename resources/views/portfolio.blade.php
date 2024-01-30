@@ -61,7 +61,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/4.png" alt="abstract" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Abstract/Geometric Art</div>
@@ -76,7 +76,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/5.png" alt="custom projects" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Custom Projects</div>
@@ -91,7 +91,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/6.png" alt="Piercings" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Piercings</div>

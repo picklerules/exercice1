@@ -31,7 +31,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.png" alt="Award" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>May 2018</h4>
@@ -41,7 +41,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.png" alt="Digital innovation" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>October 2021</h4>
@@ -81,7 +81,7 @@
                             <p class="text-white"><strong>Message: {{ $data->message }} </strong></p>
                 @endisset
 
-                <form id="contactForm" method="post">
+                <form id="contactForm" method="post" action="/contact">
                 @csrf 
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
