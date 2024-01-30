@@ -34,11 +34,11 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/services#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/portfolio#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/home#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/team#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/home#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +60,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Janis Robitaille</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>

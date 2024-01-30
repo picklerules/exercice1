@@ -170,18 +170,18 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="{{ asset('js/scripts.js') }}"></script>
+
+        <!-- Modal popup pour les données du formulaires-->
         <script>
             window.addEventListener('DOMContentLoaded', (event) => {
-                // Reste du code ...
 
-                // Vérifiez si les données de contact existent
                 @isset($data)
-                    // Déclenchez le modal après le chargement de la page
+                    
                     var myModal = new bootstrap.Modal(document.getElementById('contactModal'), {});
                     myModal.show();
                 @endisset
             });
-        </script>
+        </script>    
     </body>
 </html>
 @endsection

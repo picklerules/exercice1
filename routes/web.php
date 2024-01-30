@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::get('/home', [StudioController::class, 'index']);
 Route::get('/services', [StudioController::class, 'services']);
+Route::get('/about', [StudioController::class, 'about']);
 Route::get('/portfolio', [StudioController::class, 'portfolio']);
 Route::get('/team', [StudioController::class, 'team']);
 Route::get('/contact', [StudioController::class, 'contact']);

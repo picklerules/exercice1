@@ -14,6 +14,10 @@ class StudioController extends Controller
         return view('services');
     }
 
+    public function about(){
+        return view('home');
+    }
+
     public function portfolio(){
         return view('portfolio');
     }
